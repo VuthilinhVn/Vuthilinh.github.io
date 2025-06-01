@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100 bài code pytho thiếu nhi
+title: 100 bài code python thiếu nhi(P1)
 subtitle: Cùng nhau học code
 tags: [python]
 author: vuthilinh
