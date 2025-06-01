@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Chia sẻ, lưu trữ hành trình của tôi
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Tôi là Vũ Thị Linh. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Câu chuyện của tôi
 
-What else do you need?
+Sự thật là, tôi không phải là một học sinh giỏi, và cũng không quá trẻ để bắt đầu ngành nghề này. Nhưng tôi chọn nó, tôi sẽ cố gắng làm chủ nó!
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I can do it!!!
