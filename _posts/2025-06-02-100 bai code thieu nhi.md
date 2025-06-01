@@ -6,7 +6,7 @@ tags: [python]
 author: vuthilinh
 ---
 
-Để luyện code thì k còn cách nào khác đó là "Làm nhiều quen tay" cả, vì thế ở seri này chúng ta cùng nhau luyện 100 bài code python thiếu nhi nhé các bạn. 
+Hi Để luyện code thì k còn cách nào khác đó là "Làm nhiều quen tay" cả, vì thế ở seri này chúng ta cùng nhau luyện 100 bài code python thiếu nhi nhé các bạn. 
 	
 # P1. Bài tập nhập liệu và toán tử cơ bản
 ## 1.1. Bài 1:
