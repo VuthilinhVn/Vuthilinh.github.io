@@ -2,18 +2,17 @@
 layout: page
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <!-- Cột chính chứa bài viết -->
-  <div style="flex: 1 1 70%;">
+<div style="display: flex; flex-direction: row; gap: 30px; align-items: flex-start;">
+  
+  <!-- Cột trái: bài viết chính -->
+  <div style="flex: 3;">
     {{ content }}
 
     {% assign posts = paginator.posts | default: site.posts %}
-
     <ul class="posts-list list-unstyled" role="list">
       {% for post in posts %}
       <li class="post-preview">
         <article>
-          <!-- ... (phần còn lại giữ nguyên như bạn đã có, không cần chỉnh lại nữa) ... -->
           <a href="{{ post.url | absolute_url }}">
             <h2 class="post-title">{{ post.title | strip_html }}</h2>
           </a>
@@ -25,39 +24,19 @@ layout: page
       </li>
       {% endfor %}
     </ul>
-
-    {% if paginator.total_pages > 1 %}
-    <ul class="pagination main-pager">
-      {% if paginator.previous_page %}
-      <li class="page-item previous">
-        <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
-          <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-          <span class="d-none d-sm-inline-block">Newer Posts</span>
-        </a>
-      </li>
-      {% endif %}
-      {% if paginator.next_page %}
-      <li class="page-item next">
-        <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-          <span class="d-none d-sm-inline-block">Older Posts</span>
-          <i class="fas fa-arrow-right" alt="Older Posts"></i>
-        </a>
-      </li>
-      {% endif %}
-    </ul>
-    {% endif %}
   </div>
 
-  <!-- Cột bên phải: Sidebar -->
-  <aside style="flex: 1 1 28%; padding-left: 1rem; border-left: 1px solid #ddd;">
-    <h3>Bài viết gần đây</h3>
+  <!-- Cột phải: sidebar -->
+  <aside style="flex: 1; padding-left: 20px; border-left: 1px solid #444;">
+    <h3 style="margin-top: 0; font-weight: bold;">📝 Bài viết gần đây</h3>
     <ul style="list-style: none; padding: 0;">
       {% assign recent_posts = site.posts | slice: 0, 5 %}
       {% for post in recent_posts %}
-      <li style="margin-bottom: 0.5rem;">
+      <li style="margin-bottom: 10px;">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </li>
       {% endfor %}
     </ul>
   </aside>
+
 </div>
