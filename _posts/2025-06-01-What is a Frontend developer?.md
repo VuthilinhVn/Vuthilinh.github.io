@@ -6,7 +6,7 @@ tags: [frontend developer]
 author: vuthilinh
 ---
   Có bao giờ bạn tự hỏi, các website và app bạn đang sử dụng được tạo ra như thế nào không? 
-  Thực chất, nội dung mà bạn nhìn thấy là sự kết hợp của khá nhiều ngôn ngữ lập trình đó, và nội dung càng phong phú đẹp mắt thì các skills mà các lập trình viên sử dụng càng nâng cao ^^
+Thực chất, nội dung mà bạn nhìn thấy là sự kết hợp của khá nhiều ngôn ngữ lập trình đó, và nội dung càng phong phú đẹp mắt thì các skills mà các lập trình viên sử dụng càng nâng cao ^^
   
 # 1. Nhà phát triển Frontend là gì?
 
