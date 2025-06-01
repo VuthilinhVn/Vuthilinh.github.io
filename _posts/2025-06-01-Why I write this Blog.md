@@ -11,7 +11,7 @@ Tôi từng học được một điều rằng:
 
 > "Cách học tốt nhất là dạy lại cho người khác."
 
-Thực ra, tôi là một người học bình thường khi mới bắt đầu viết blog. Động lực duy nhất khiến tôi kiên nhẫn viết là vì tôi có nhiều thời gian rảnh. Tôi nghĩ rằng mình nên làm điều gì đó có ích để lấp khoảng trống. Và thế là, tôi nghĩ đến việc viết blog về AI.
+Thực ra, tôi là một người học bình thường khi mới bắt đầu viết blog. Động lực duy nhất khiến tôi kiên nhẫn viết là vì tôi muốn rèn luyện khả năng trình bày. Tôi nghĩ rằng mình nên viết blog để rèn luyện nó. Và thế là, tôi nghĩ đến việc viết blog về AI.
 
 Vậy viết blog có lợi ích gì? Cùng điểm qua:
 
@@ -35,13 +35,13 @@ Vậy viết blog có lợi ích gì? Cùng điểm qua:
 
 Tôi từng gặp những trở ngại này. Nhưng tôi tập trung vào lợi ích thay vì bất lợi — và điều đó giúp tôi vượt qua.
 
-Khi đăng bài đầu tiên, tôi thấy rất vui. Cảm giác ấy cho tôi niềm tin rằng: **"Tôi làm được."**
+Khi đăng bài đầu tiên, tôi thấy rất vui. Cảm giác ấy cho tôi niềm tin rằng: **"I can do it!"**
 
 ## 2. Tôi mong bạn cũng viết blog
 
 Viết blog không khó. Lợi ích nhận lại luôn lớn hơn nỗi sợ ban đầu.
 
-Mục tiêu ban đầu của tôi chỉ là học và ghi lại kiến thức AI. Nhưng giờ blog tôi có thêm nhóm, fanpage, và cộng đồng cùng chia sẻ.
+Mục tiêu ban đầu của tôi chỉ là học và ghi lại kiến thức AI.
 
 Theo tôi, để viết blog tốt cần:
 
