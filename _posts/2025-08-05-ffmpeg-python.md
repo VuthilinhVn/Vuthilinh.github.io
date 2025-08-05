@@ -9,7 +9,7 @@ This note's from https://github.com/kkroening/ffmpeg-python/
 
 # Examples 
 
-## [Get video info  (ffprobe)](https://github.com/kkroening/ffmpeg-python/blob/master/examples/video_info.py#L15)
+## [Get video info Lấy thông tin metadata của tệpvideo/âm thanh (ffprobe)](https://github.com/kkroening/ffmpeg-python/blob/master/examples/video_info.py#L15)
 
 ```python
 probe = ffmpeg.probe(args.in_filename)
@@ -18,7 +18,7 @@ width = int(video_stream['width'])
 height = int(video_stream['height'])
 ```
 
-## [Generate thumbnail for video](https://github.com/kkroening/ffmpeg-python/blob/master/examples/get_video_thumbnail.py#L21)
+## [Generate thumbnail for video cắt video ](https://github.com/kkroening/ffmpeg-python/blob/master/examples/get_video_thumbnail.py#L21)
 
 <img src="https://raw.githubusercontent.com/kkroening/ffmpeg-python/master/examples/graphs/get_video_thumbnail.png" alt="get-video-thumbnail graph" width="30%" />
 
@@ -32,7 +32,7 @@ height = int(video_stream['height'])
 )
 ```
 
-## [Convert video to numpy array](https://github.com/kkroening/ffmpeg-python/blob/master/examples/ffmpeg-numpy.ipynb)
+## [Convert video to numpy array Chuyển video sang dạng numpy array](https://github.com/kkroening/ffmpeg-python/blob/master/examples/ffmpeg-numpy.ipynb)
 
 <img src="https://raw.githubusercontent.com/kkroening/ffmpeg-python/master/examples/graphs/ffmpeg-numpy.png" alt="ffmpeg-numpy graph" width="20%" />
 
@@ -50,7 +50,7 @@ video = (
 )
 ```
 
-## [Read single video frame as jpeg through pipe](https://github.com/kkroening/ffmpeg-python/blob/master/examples/read_frame_as_jpeg.py#L16)
+## [Read single video frame as jpeg through pipe Đọc một khung hình video duy nhất dưới dạng JPEG qua pipe](https://github.com/kkroening/ffmpeg-python/blob/master/examples/read_frame_as_jpeg.py#L16)
 
 <img src="https://raw.githubusercontent.com/kkroening/ffmpeg-python/master/examples/graphs/read_frame_as_jpeg.png" alt="read-frame-as-jpeg graph" width="30%" />
 
@@ -64,7 +64,7 @@ out, _ = (
 )
 ```
 
-## [Convert sound to raw PCM audio](https://github.com/kkroening/ffmpeg-python/blob/master/examples/transcribe.py#L23)
+## [Convert sound to raw PCM audio Để chuyển đổi một tệp âm thanh thành định dạng PCM](https://github.com/kkroening/ffmpeg-python/blob/master/examples/transcribe.py#L23)
 
 <img src="https://raw.githubusercontent.com/kkroening/ffmpeg-python/master/examples/graphs/transcribe.png" alt="transcribe graph" width="30%" />
 
@@ -77,7 +77,7 @@ out, _ = (ffmpeg
 )
 ```
 
-## Assemble video from sequence of frames
+## Assemble video from sequence of frames tạo một video từ một chuỗi các khung hình
 
 <img src="https://raw.githubusercontent.com/kkroening/ffmpeg-python/master/examples/graphs/glob.png" alt="glob" width="25%" />
 
